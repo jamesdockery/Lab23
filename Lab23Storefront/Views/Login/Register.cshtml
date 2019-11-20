@@ -1,0 +1,27 @@
+﻿@model Lab23Storefront.Models.User
+
+
+@{
+    ViewData["Title"] = "Register";
+}
+<h1>Register</h1>
+
+<td>
+    <a asp-controller="Login" asp-action="Login">Login</a>
+</td>
+
+
+<form method="post">
+    <h2>User Name</h2>
+    <input type="text" name="Name" />
+
+    <h2>Password</h2>
+    <input type="password" name="Password" />
+
+    <h2>Money</h2>
+    <input type="number" name="Money" />
+
+    <input type="submit" />
+</form>
+
+
